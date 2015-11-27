@@ -1,1 +1,11 @@
 djkdfjkldfsjlldfsdfjllsdf
+
+
+
+1 git add *
+
+2 git commit -m ""
+
+3 git pull --rebase origin
+
+4 git push -u origin master
