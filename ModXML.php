@@ -9,8 +9,8 @@ $names = $_POST["name1"];
 $price = $_POST["price"];
 $description = $_POST["description"];
 $grade = $_POST["grade"];
-echo $name;
-echo $price;
+//echo $name;
+//echo $price;
 if (file_exists('phones.xml')) {
     //loads the xml and returns a simplexml object
     $xml = simplexml_load_file('phones.xml');
@@ -18,7 +18,7 @@ if (file_exists('phones.xml')) {
     //transforming the object in xml format
     $xmlFormat = $xml->asXML();
     //displaying the element in proper format
-    echo '<u><b>This is the xml code from phones.xml:</b></u>
+    echo '<u><b>This is the xml code from phones.xml :</b></u>
      <br /><br />
      <pre>' . htmlentities($xmlFormat, ENT_COMPAT | ENT_HTML401, "ISO-8859-1") . '</pre><br /><br />';
 
@@ -38,11 +38,21 @@ if (file_exists('phones.xml')) {
 
    
     //displaying the element in proper format
-    echo '<br /><u><b>This is the xml code from phones.xml with all genre changed:</b></u>
-     <br /><br />
-     <pre>' . htmlentities($xml->asXML(), ENT_COMPAT | ENT_HTML401, "ISO-8859-1") . '</pre>';
+    //echo '<br /><u><b>This is the xml code from phones.xml with all genre changed:</b></u>
+     //<br /><br />
+     //<pre>' . htmlentities($xml->asXML(), ENT_COMPAT | ENT_HTML401, "ISO-8859-1") . '</pre>';
 } else {
     exit('Failed to open phones.xml.');
 }
     file_put_contents('phones.xml', $xml->asXML());
 ?>
+
+<html>
+    
+<body>
+    <form action="index.php">
+    <input type="submit" value="View your information">
+</form>
+    
+</body>
+</html>

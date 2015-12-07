@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
+    <meta HTTP-EQUIV="refresh" CONTENT="60">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,7 +51,10 @@
 
 <body id="page-top">
      <div class=" text-center">
-    <img src="..\wad_project\pic\title.png" alt="" style="">
+    <img src="title.png" alt="" style="">
+   
+
+
     </div> 
 
 
@@ -72,19 +76,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="..\wad_project\pic\yellow.jpg" alt="Yellow" width="460" height="345">
+        <img src="yellow.jpg" alt="Yellow" width="460" height="345">
       </div>
 
       <div class="item">
-        <img src="..\wad_project\pic\blue.jpg" alt="Blue" width="460" height="345">
+        <img src="blue.jpg" alt="Blue" width="460" height="345">
       </div>
     
       <div class="item">
-        <img src="..\wad_project\pic\green.jpg" alt="Green" width="460" height="345">
+        <img src="green.jpg" alt="Green" width="460" height="345">
       </div>
 
       <div class="item">
-        <img src="..\wad_project\pic\pink.jpg" alt="Pink" width="460" height="345">
+        <img src="pink.jpg" alt="Pink" width="460" height="345">
       </div>
     </div>
     
@@ -111,37 +115,49 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Our Phones</h2>
+                    <h2 class="section-heading"><b>Our Phones</b></h2>
+                    </br>
+                    </br>
                         <?php
                         
                         include 'xslt.php';
+?>
                     
                         
-                        ?>
                         
-<form action="ModXML.php" method="post">
-Phone:
-<input type="text" name="name1">
-<br>
-<br>
-Price:
-<input type="text" name="price">
-<br>
-<br>
-About:
-<input type="text" name="description">
-<br>
-<br>
-Grade:
-<input type="text" name="grade">
-<br>
-<br>
-<br>
-<input type="submit">
-</form>
+
+					<form  action="ModXML.php" role="form" method="post">
+                        <div class="row">
+                            
+                                <label>Name</label>
+                                <input type="text" name="name1" class="form-control">
+                                  </br>
+                                  </br>
+                                <label>Price in euro - €</label>
+                                <input type="Price" name="price" class="form-control">
+                                   </br>
+                                   </br>
+                                <label>About</label>
+                                <input type="About" name="description" class="form-control">
+                                   </br>
+                                   </br>
+                                <label>Grade</label>
+                                <input type="grade" name="grade" class="form-control">
+                                    </br>
+                                    </br>
+                            
+                            <div class="clearfix"></div>
+                          
+                            
+                                <input type="hidden" name="save" value="contact">
+                                </br>
+                                </br>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                                
+                             </div>
+                    </form>
 
 
-         
                 </div>
             </div>
         </div>
@@ -207,7 +223,7 @@ Grade:
             <div class="row no-gutter">
               <div class="col-lg-12 col-sm-18">
                     <a href="#" class="portfolio-box">
-                        <img src="..\wad_project\pic\p.png" class="img-responsive" alt="">
+                        <img src="p.png" class="img-responsive" alt="">
                        
                             
                         </div>
@@ -265,7 +281,6 @@ Grade:
 </body>
 
 </html>
-
 
 
 

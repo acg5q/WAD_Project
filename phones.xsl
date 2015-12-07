@@ -2,7 +2,7 @@
 <html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
 <xsl:for-each select="mobile_phone/model">
-  <div style="background-color:Gold;color:green;padding:7px">
+  <div style="background-color:black;color:white;padding:7px">
     <span style="font-weight:bold"><xsl:value-of select="name1"/> - </span>
     <xsl:value-of select="price"/>
     </div>

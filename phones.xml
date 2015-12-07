@@ -2,45 +2,50 @@
 <mobile_phone>
 
 <model>
-<name>iphone 6s Plus</name>
+<name1>iphone 6s Plus</name1>
 <price>$800.00</price>
 <description>Massive</description>
 <grade>9.5/10</grade>
 </model>
 
 <model>
-<name>iphone 6s </name>
+<name1>iphone 6s </name1>
 <price>$760.00</price>
 <description>Massive</description>
 <grade>9.5/10</grade>
 </model>
 
 <model>
-<name>iphone 6 Plus</name>
+<name1>iphone 6 Plus</name1>
 <price>$779.99</price>
 <description>Massive</description>
 <grade>9.0/10</grade>
 </model>
 
 <model>
-<name>iphone 6</name>
+<name1>iphone 6</name1>
 <price>$750.00</price>
 <description>Massive</description>
 <grade>9.0/10</grade>
 </model>
 
 <model>
-<name>Samsung Galaxy s6 Edge Plus</name>
+<name1>Samsung Galaxy s6 Edge Plus</name1>
 <price>$799.99.00</price>
 <description>Massive</description>
 <grade>9.5/10</grade>
 </model>
 
 <model>
-<name>Samsung Galaxy s6 Edge</name>
+<name1>Samsung Galaxy s6 Edge</name1>
 <price>$756.00</price>
 <description>Massive</description>
 <grade>9.0/10</grade>
 </model>
 
-<model><name1>Sam's Phone</name1><price>1000</price><description>Great phone</description><grade>A++</grade></model></mobile_phone>
+<model><name1>Sam's Phone</name1><price>1000</price><description>Great phone</description><grade>A++</grade></model>
+<model><name1>Samsung galaxy Prime</name1><price>150</price><description>This phone is de bomb</description><grade>9.6/10</grade></model>
+<model><name1>Htc 1 M8</name1><price>450</price><description>brillo</description><grade>9.5</grade></model>
+<model><name1>Apple Iphone 5s</name1><price>600</price><description>with fingerprint ID</description><grade>8.5/10</grade></model>
+<model><name1/><price/><description/><grade/></model><model><name1>Iphone 5c</name1><price>500</price><description>Plastic back</description><grade>8.0/10</grade></model>
+</mobile_phone>
