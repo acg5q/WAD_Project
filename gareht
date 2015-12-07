@@ -8,4 +8,4 @@ djkdfjkldfsjlldfsdfjllsdf
 
 3 git pull --rebase origin
 
-4 git push -u origin mastergit 
+4 git push -u origin master
