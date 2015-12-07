@@ -50,7 +50,7 @@
 
 <body id="page-top">
      <div class=" text-center">
-    <img src="title.png" alt="" style="">
+    <img src="..\wad_project\pic\title.png" alt="" style="">
     </div> 
 
 
@@ -72,19 +72,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="yellow.jpg" alt="Yellow" width="460" height="345">
+        <img src="..\wad_project\pic\yellow.jpg" alt="Yellow" width="460" height="345">
       </div>
 
       <div class="item">
-        <img src="blue.jpg" alt="Blue" width="460" height="345">
+        <img src="..\wad_project\pic\blue.jpg" alt="Blue" width="460" height="345">
       </div>
     
       <div class="item">
-        <img src="green.jpg" alt="Green" width="460" height="345">
+        <img src="..\wad_project\pic\green.jpg" alt="Green" width="460" height="345">
       </div>
 
       <div class="item">
-        <img src="pink.jpg" alt="Pink" width="460" height="345">
+        <img src="..\wad_project\pic\pink.jpg" alt="Pink" width="460" height="345">
       </div>
     </div>
     
@@ -207,7 +207,7 @@ Grade:
             <div class="row no-gutter">
               <div class="col-lg-12 col-sm-18">
                     <a href="#" class="portfolio-box">
-                        <img src="p.png" class="img-responsive" alt="">
+                        <img src="..\wad_project\pic\p.png" class="img-responsive" alt="">
                        
                             
                         </div>
