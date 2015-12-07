@@ -5,11 +5,12 @@
  * Loading a XML from a file, adding new elements and editing elements
  */
 //get author from form
-$name = $_POST["name"];
+$names = $_POST["name1"];
 $price = $_POST["price"];
 $description = $_POST["description"];
 $grade = $_POST["grade"];
-
+echo $name;
+echo $price;
 if (file_exists('phones.xml')) {
     //loads the xml and returns a simplexml object
     $xml = simplexml_load_file('phones.xml');
@@ -22,11 +23,11 @@ if (file_exists('phones.xml')) {
      <pre>' . htmlentities($xmlFormat, ENT_COMPAT | ENT_HTML401, "ISO-8859-1") . '</pre><br /><br />';
 
     //adding new child to the xml
-    $newChild = $xml->addChild('new');
-    $newChild->addChild('name', $name);
-    $newChild->addChild('price', $prcie);
+    $newChild = $xml->addChild('model');
+     $newChild->addChild('name1', $names);
+    $newChild->addChild('price', $price);
     $newChild->addChild('description', $description);
-    $newChild->addChild('grade', $price);
+    $newChild->addChild('grade', $grade);
   
     //transforming the object in xml format
     $xmlFormat = $xml->asXML();
