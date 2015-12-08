@@ -159,6 +159,9 @@
                                 
                              </div>
                     </form>
+                    <form method='get' action='rss.php'>
+                        <input type="submit" value="Submit"/>
+                    </form>
 
 
                 </div>
@@ -212,9 +215,12 @@
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
+                        <form method="post" action="rss.xml">
+                            <input type="submit" value="Submit"/>
+                        </form>
                         <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
                         <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <p id="rssloader" class="text-muted">You have to make your websites with love these days!</p>
                     </div>
                 </div>
             </div>
