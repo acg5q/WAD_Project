@@ -107,24 +107,8 @@
 </div>
 </br>
 </br>
-
-<button font color="black" type="button" onclick="loadDoc()">Find out more</button>
-
-<script>
-function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (xhttp.readyState == 4 && xhttp.status == 200) {
-      document.getElementById("demo").innerHTML = xhttp.responseText;
-    }
-  };
-  xhttp.open("GET", "phones.xml", true);
-  xhttp.send();
-}
-</script>
-
  
-<!--<a href="random.html" class="btn btn-primary btn-xl page-scroll">Find Out More</a>-->
+<a href="random.html" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
 
     </header>
     
@@ -170,6 +154,7 @@ function loadDoc() {
                                 <input type="hidden" name="save" value="contact">
                                 </br>
                                 </br>
+                                
                                 <button type="submit" class="btn btn-default">Submit</button>
                                 
                              </div>
@@ -255,7 +240,30 @@ function loadDoc() {
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Start your journey with us today!</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">Sign Up Now!</a>
+                
+           
+           
+            <div id=demo> </div>
+            
+            <button color="black" type="button" onclick="loadDoc()">Start </button>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+      document.getElementById("demo").innerHTML = xhttp.responseText;
+    }
+  };
+  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp.send();
+}
+</script>
+
+            
+            
+            
+            
             </div>
         </div>
     </aside>

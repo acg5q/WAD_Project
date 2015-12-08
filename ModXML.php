@@ -46,14 +46,12 @@ if (file_exists('phones.xml')) {
     exit('Failed to open phones.xml.');
 }
     file_put_contents('phones.xml', $xml->asXML());
+
+$doc->save("index.php");
+include "index.php";
+echo "<script>alert('Thank you for your message, we will get back to you soon')</script>";
+
+
 ?>
 
-<html>
-    
-<body>
-    <form action="index.php">
-    <input type="submit" value="View your information">
-</form>
-    
-</body>
-</html>
+
