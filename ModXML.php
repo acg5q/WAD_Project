@@ -12,6 +12,7 @@ $grade = $_POST["grade"];
 //echo $name;
 //echo $price;
 if (file_exists('phones.xml')) {
+    header("Location: index.php");
     //loads the xml and returns a simplexml object
     $xml = simplexml_load_file('phones.xml');
 
