@@ -108,7 +108,7 @@
 </br>
 </br>
  
-<a class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+
 
     </header>
     
