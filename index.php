@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <!-- style sheet for carousel -->
     <link rel="stylesheet" href="carousel.css">
     
 
@@ -113,7 +114,7 @@
       <div class="item active">
         <img src="yellow.jpg" alt="Yellow" width="460" height="345">
       </div>
-
+        <!-- image tags for the carousel -->
       <div class="item">
         <img src="blue.jpg" alt="Blue" width="460" height="345">
       </div>
@@ -147,7 +148,7 @@
 
     </header>
     
-
+  <!-- to display form/xml -->
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
@@ -155,6 +156,7 @@
                     <h2 class="section-heading"><b>Our Phones</b></h2>
                     </br>
                     </br>
+                   
                         <?php
                         
                         include 'xslt.php';
@@ -163,9 +165,9 @@
                         
                         
 
-					<form  action="ModXML.php, demo_form.asp" role="form" method="post">
+					<form  action="ModXML.php" role="form" method="post">
                         <div class="row">
-                            
+                            <!-- the form -->
                                 <label>Name</label>
                                 <input type="text" name="name1" class="form-control" required>
                                   </br>
@@ -189,12 +191,13 @@
                                 <input type="hidden" name="save" value="contact">
                                 </br>
                                 </br>
-                                
+                                <!-- submit button -->
                                 <button type="submit" class="btn btn-default">Submit</button>
                                 
                              </div>
                     </form>
                     <br>
+                    <!-- buttom to update the RSS feed-->
                     <form method='get' action='rss.php'>
                         <input type="submit" value="Add to RSS FEED"  class="btn btn-default"/>
                     </form>
@@ -369,7 +372,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                       
+                       <!-- how to view the rss feed -->
                         <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
                         <h3>View our RSS Feed</h3>
                         <form method="post" action="rss.xml">
@@ -406,7 +409,7 @@
             <div id=demo> </div>
             
             <button type="button"  class="btn btn-default" onclick="loadDoc()" >Start </button>
-
+<!-- ajax text -->
 <script>
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
