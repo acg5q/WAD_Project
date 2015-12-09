@@ -400,9 +400,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
-    color: #fff;
-    background-color: blue;
+    border-color: #c4b3a1;
+    color: #00000;
+    background-color: #c4b3a1;
 }
 
 .btn-primary:active,
@@ -429,13 +429,13 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #f05f40;
-    background-color: #f05f40;
+    border-color: #c4b3a1;
+    background-color: #c4b3a1;
 }
 
 .btn-primary .badge {
-    color: #f05f40;
-    background-color: #fff;
+    color: #000000;
+    background-color:  #c4b3a1;
 }
 
 .btn {
@@ -444,6 +444,9 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
+     color: #000000;
+    background-color:  #c4b3a1;
+    float: inherit;
 }
 
 .btn-xl {
@@ -475,3 +478,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+

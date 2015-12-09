@@ -108,7 +108,7 @@
 </br>
 </br>
  
-<a href="random.html" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+<a class="btn btn-primary btn-xl page-scroll">Find Out More</a>
 
     </header>
     
@@ -128,23 +128,23 @@
                         
                         
 
-					<form  action="ModXML.php" role="form" method="post">
+					<form  action="ModXML.php, demo_form.asp" role="form" method="post">
                         <div class="row">
                             
                                 <label>Name</label>
-                                <input type="text" name="name1" class="form-control">
+                                <input type="text" name="name1" class="form-control" required>
                                   </br>
                                   </br>
                                 <label>Price in euro - €</label>
-                                <input type="Price" name="price" class="form-control">
+                                <input type="Price" name="price" class="form-control" required>
                                    </br>
                                    </br>
                                 <label>About</label>
-                                <input type="About" name="description" class="form-control">
+                                <input type="About" name="description" class="form-control" required>
                                    </br>
                                    </br>
                                 <label>Grade</label>
-                                <input type="grade" name="grade" class="form-control">
+                                <input type="grade" name="grade" class="form-control" >
                                     </br>
                                     </br>
                             
@@ -159,9 +159,11 @@
                                 
                              </div>
                     </form>
+                    <br>
                     <form method='get' action='rss.php'>
-                        <input type="submit" value="Submit"/>
+                        <input type="submit" value="Add to RSS FEED"  class="btn btn-default"/>
                     </form>
+                  
 
 
                 </div>
@@ -215,12 +217,12 @@
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <form method="post" action="rss.xml">
-                            <input type="submit" value="Submit"/>
-                        </form>
+                       
                         <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Made with Love</h3>
-                        <p id="rssloader" class="text-muted">You have to make your websites with love these days!</p>
+                        <h3>View our RSS Feed</h3>
+                        <form method="post" action="rss.xml">
+                            <input type="submit" value="RSS FEED"  class="btn btn-default"/>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -251,7 +253,7 @@
            
             <div id=demo> </div>
             
-            <button color="black" type="button" onclick="loadDoc()">Start </button>
+            <button type="button"  class="btn btn-default" onclick="loadDoc()" >Start </button>
 
 <script>
 function loadDoc() {
