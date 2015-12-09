@@ -46,6 +46,41 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+     <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+        
+        * {margin: 0; padding: 0;}
+		body {font-family: Open Sans; font-size: 13px; font-weight: 300;}
+		a {color: #000; text-decoration: none;}
+		h1 {padding: 60px 0; text-align: center;}
+		  
+        .wrap {margin: 60px auto; text-align: center;}
+        
+		.img-zoom {
+			width:310px;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+			-o-transition: all .2s ease-in-out;
+			-ms-transition: all .2s ease-in-out;
+		}
+ 
+		.transition {
+			-webkit-transform: scale(2); 
+			-moz-transform: scale(2);
+			-o-transform: scale(2);
+			transform: scale(2);
+		}
+		</style>
+		
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+		
+		<!--ENd of ZOOM--->
 
 </head>
 
@@ -170,6 +205,123 @@
             </div>
         </div>
     </section>
+    
+    
+    
+    <!--ZOOM-->
+
+	<h1>Iphone 6s</a></h1>
+		
+		<div class="wrap">
+			<img class="img-zoom" src="iphone.png" alt="Iphone 6s">
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<script>
+		  $(document).ready(function(){
+			$('.img-zoom').hover(function() {
+				$(this).addClass('transition');
+ 
+			}, function() {
+				$(this).removeClass('transition');
+			});
+		  });
+		</script>
+		
+		<!--END OF ZOOM-->
+		
+		 <!--ZOOM-->
+
+	<h1>HTC ONE M8s</a></h1>
+		
+		<div class="wrap">
+			<img class="img-zoom" src="htc.png" alt="HTC ONE M8s">
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<script>
+		  $(document).ready(function(){
+			$('.img-zoom').hover(function() {
+				$(this).addClass('transition');
+ 
+			}, function() {
+				$(this).removeClass('transition');
+			});
+		  });
+		</script>
+		
+		<!--END OF ZOOM-->
+		
+		<!--ZOOM-->
+
+	<h1>SONY AQUA</a></h1>
+		
+		<div class="wrap">
+			<img class="img-zoom" src="sony.png" alt="SONY AQUA">
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<script>
+		  $(document).ready(function(){
+			$('.img-zoom').hover(function() {
+				$(this).addClass('transition');
+ 
+			}, function() {
+				$(this).removeClass('transition');
+			});
+		  });
+		</script>
+		
+		<!--END OF ZOOM-->
+		
+		<!--ZOOM-->
+
+	<h1>Iphone 5c</a></h1>
+		
+		<div class="wrap">
+			<img class="img-zoom" src="iphone5c.png" alt="Iphone5c">
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<script>
+		  $(document).ready(function(){
+			$('.img-zoom').hover(function() {
+				$(this).addClass('transition');
+ 
+			}, function() {
+				$(this).removeClass('transition');
+			});
+		  });
+		</script>
+		
+		<!--END OF ZOOM-->
+		
+		<!--ZOOM-->
+
+	<h1>Unwrap Great Offers for Christmas!</a></h1>
+		
+		<div class="wrap">
+			<img class="img-zoom" src="xmas.png" alt="Christmas 2015">
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<script>
+		  $(document).ready(function(){
+			$('.img-zoom').hover(function() {
+				$(this).addClass('transition');
+ 
+			}, function() {
+				$(this).removeClass('transition');
+			});
+		  });
+		</script>
+		
+		<!--END OF ZOOM-->
 
     <section id="services">
         <div class="container">
@@ -311,6 +463,52 @@ function loadDoc() {
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+    
+    <!---TWITTER--->
+
+
+<div class="social_button twitter_button">
+    <div id="foo">
+        <a href="https://google.com" class="twitter-share-button" data-count="horizontal">
+    Tweet
+  </a>
+    </div>
+    <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        window.twttr = (function (d, s, id) {
+            var t, js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+            return window.twttr || (t = {
+                _e: [],
+                ready: function (f) {
+                    t._e.push(f)
+                }
+            });
+        }(document, "script", "twitter-wjs"));
+    </script>
+</div>
+
+<!---END OF TWITTER--->
+
+<!---FACEBOOK---CODE FROM https://developers.facebook.com/docs/plugins/like-button ---->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=275331235831364";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-href="https://www.facebook.com/CarphonewarehouseIreland/?fref=ts" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+<br>
+<!---END OF FACEBOOK--->
+
 
 </body>
 
