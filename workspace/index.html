@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+        
+        * {margin: 0; padding: 0;}
+		body {font-family: Open Sans; font-size: 13px; font-weight: 300;}
+		a {color: #000; text-decoration: none;}
+		h1 {padding: 60px 0; text-align: center;}
+		  
+        .wrap {margin: 60px auto; text-align: center;}
+        
+		.img-zoom {
+			width:310px;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+			-o-transition: all .2s ease-in-out;
+			-ms-transition: all .2s ease-in-out;
+		}
+ 
+		.transition {
+			-webkit-transform: scale(2); 
+			-moz-transform: scale(2);
+			-o-transform: scale(2);
+			transform: scale(2);
+		}
+		</style>
+		
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+		  
+    </head>
+    
+    <body>
+    		
+		<h1><a href="http://stanislav.it/how-to-create-zoom-effect-on-image-hover-with-css-and-jquery">Iphone 6s</a></h1>
+		
+		<div class="wrap">
+			<img class="img-zoom" src="iphone.jpg" alt="Iphone 6s">
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<script>
+		  $(document).ready(function(){
+			$('.img-zoom').hover(function() {
+				$(this).addClass('transition');
+ 
+			}, function() {
+				$(this).removeClass('transition');
+			});
+		  });
+		</script>
+		
+		
+		<p> Available in gold, silver, space grey and rose gold, 
+		iPhone 6s features an A9 chip, 3D Touch, ultra-fast 4G 
+		LTE Advanced wireless, a 12MP iSight camera and iOS 9.</p>
+	</body>
+</html>
